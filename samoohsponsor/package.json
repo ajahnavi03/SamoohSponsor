@@ -1,0 +1,43 @@
+{
+  "name": "samoohsponsor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.13",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "dotenv": "^16.0.3",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "ipfs-http-client": "^59.0.0",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-forms-handler": "^1.0.29",
+    "react-global-hook": "^2.0.0-rc2",
+    "react-loader-spinner": "^5.3.4",
+    "react-toastify": "^9.1.1",
+    "styled-components": "^5.3.6",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "babel-plugin-styled-components": "^2.0.7",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.2"
+  }
+}
